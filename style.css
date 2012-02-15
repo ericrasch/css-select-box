@@ -96,7 +96,7 @@ select#soflow, select#soflow-color {
    -webkit-padding-start: 2px;
    -webkit-user-select: none;
    background-image: url(http://www.ericrasch.com/media/icon-selectbox.png), -webkit-linear-gradient(#FAFAFA, #F4F4F4 40%, #E5E5E5);
-   background-position: 98% center;
+   background-position: 97% center;
    background-repeat: no-repeat;
    border: 1px solid #AAA;
    color: #555;
@@ -113,4 +113,8 @@ select#soflow-color {
    color: #fff;
    background-image: url(http://www.ericrasch.com/media/icon-selectbox.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
    background-color: #779126;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   padding-left: 15px;
 }
