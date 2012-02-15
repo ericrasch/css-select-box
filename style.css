@@ -88,7 +88,7 @@ div { margin: 20px; }
 
 /* -------------------- Select Box Styles: stackoverflow.com Method */
 /* -------------------- Source: http://stackoverflow.com/a/5809186 */
-select#soflow {
+select#soflow, select#soflow-color {
    -webkit-appearance: button;
    -webkit-border-radius: 2px;
    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.1);
@@ -107,4 +107,10 @@ select#soflow {
    text-overflow: ellipsis;
    white-space: nowrap;
    width: 300px;
+}
+
+select#soflow-color {
+   color: #fff;
+   background-image: url(http://www.ericrasch.com/media/icon-selectbox.png), -webkit-linear-gradient(#779126, #779126 40%, #779126);
+   background-color: #779126;
 }
